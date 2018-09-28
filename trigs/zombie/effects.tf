@@ -305,6 +305,9 @@
 /def -Fp5 -msimple -aCred -t'The Salve of Poison Resistance dries up and flakes off.' salve_of_poison_resistance_off = /effect_off salve_of_poison_resistance
 
 /def_effect -p'darkness' -n'Darkness'
+/def -Fp5 -msimple -aCgreen -t'You summon a circle of darkness.' darkness_on = /effect_on darkness
+/def -Fp5 -msimple -aCred -t'The darkness spell wears off.' darkness_off = /effect_off darkness
+
 /def_effect -p'light' -n'Light'
 /def_effect -p'sharp_nails' -n'Sharp Nails'
 
